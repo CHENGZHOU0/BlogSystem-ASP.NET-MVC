@@ -1,0 +1,14 @@
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\bin\Debug\BlogSystem.Models.dll.config
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\bin\Debug\BlogSystem.Models.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\bin\Debug\BlogSystem.Models.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.xml
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.csprojAssemblyReference.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.csproj.CoreCompileInputs.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.csproj.CopyComplete
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.Migrations.createBlog.resources
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Models\obj\Debug\BlogSystem.Models.csproj.GenerateResource.cache

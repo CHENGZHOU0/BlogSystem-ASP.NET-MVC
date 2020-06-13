@@ -1,0 +1,6 @@
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Dto\bin\Debug\BlogSystem.Dto.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Dto\bin\Debug\BlogSystem.Dto.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Dto\obj\Debug\BlogSystem.Dto.csprojAssemblyReference.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Dto\obj\Debug\BlogSystem.Dto.csproj.CoreCompileInputs.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Dto\obj\Debug\BlogSystem.Dto.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.Dto\obj\Debug\BlogSystem.Dto.pdb

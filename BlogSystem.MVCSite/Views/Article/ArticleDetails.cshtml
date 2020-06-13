@@ -1,0 +1,151 @@
+﻿@model BlogSystem.Dto.ArticleDto
+
+@{
+    ViewBag.Title = "ArticleDetails";
+}
+
+<h2>ArticleDetails</h2>
+
+<div>
+    <h4>ArticleDto</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Content)
+        </dt>
+
+        <dd>
+            @Html.Raw(Model.Content)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GoodCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GoodCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BadCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BadCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImagePath)
+        </dd>
+
+        <dt>
+            分类
+        </dt>
+        @foreach (var item in Model.CategoryNames)
+        {
+            <dd class="categoryNames">
+                @item
+            </dd>
+        }
+    </dl>
+</div>
+
+<p>
+    <button onclick="btnGoodHandler(this)">
+        顶
+    </button>
+    <button onclick="btnBadHandler(this)">
+        踩
+    </button>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "ArticleList2")
+
+
+    <input type="text" name="comment" id="comment" />
+    <button onclick="addComment()">添加评论</button>
+</p>
+
+<ul>
+    @foreach (var comment in ViewBag.Comments)
+    {
+        <li>
+            <span>@comment.Content</span>
+            <br />
+            <span>@comment.Email  @comment.CreateTime</span>
+        </li>
+    }
+</ul>
+
+@section headers{
+    <script>
+        alert("hello")
+        var articleId = '@Model.Id';
+        alert(articleId)
+
+        function addComment() {
+            //Ajax
+            $.ajax({
+                url: "/Article/AddComment/",
+                type = "post",
+                data = {
+                    id: '@Model.Id',
+                    Content: document.getElementById("comment").value
+                }
+            }).done(() => {
+                alert("评论成功");
+                location.reload();
+            })
+        }
+
+        function btnGoodHandler(btn) {
+            alert("hello")
+            //Ajax
+            $.ajax({
+                url: "/Article/AddGoodCount/" + articleId,
+                type = "post"
+            }).done(() => {
+                alert("点赞成功");
+                btn.disable = true;
+            })
+        }
+        function btnBadHandler(btn) {
+            //Ajax
+            $.ajax({
+                url: "/Article/AddBadCount/" + articleId,
+                type = "post"
+            }).done(() => {
+                alert("反对成功");
+                btn.disable = true;
+            })
+        }
+
+    </script>
+}

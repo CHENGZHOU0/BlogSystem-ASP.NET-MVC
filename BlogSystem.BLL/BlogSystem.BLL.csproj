@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5376268-00AB-4F17-8793-74CECA23B77F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BlogSystem.BLL</RootNamespace>
+    <AssemblyName>BlogSystem.BLL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArticleManager.cs" />
+    <Compile Include="UserManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlogSystem.DAL\BlogSystem.DAL.csproj">
+      <Project>{ce998f11-011e-427f-9430-f3f5843f4cac}</Project>
+      <Name>BlogSystem.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogSystem.Dto\BlogSystem.Dto.csproj">
+      <Project>{9dc06a73-e0c7-43be-ad03-a9d10dd71099}</Project>
+      <Name>BlogSystem.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogSystem.IBLL\BlogSystem.IBLL.csproj">
+      <Project>{6d760a83-adac-4116-860d-5af60dbd7854}</Project>
+      <Name>BlogSystem.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogSystem.IDAL\BlogSystem.IDAL.csproj">
+      <Project>{e5d2c9fc-e0ee-4e17-83ae-e15fe98b26ba}</Project>
+      <Name>BlogSystem.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlogSystem.Models\BlogSystem.Models.csproj">
+      <Project>{a65ebcf5-9290-4484-a6b1-ae3ed8efd9dc}</Project>
+      <Name>BlogSystem.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

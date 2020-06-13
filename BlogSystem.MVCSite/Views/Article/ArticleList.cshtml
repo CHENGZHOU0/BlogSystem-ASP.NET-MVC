@@ -1,0 +1,115 @@
+﻿@model IEnumerable<BlogSystem.Dto.ArticleDto>
+
+@{
+    ViewBag.Title = "ArticleList";
+}
+
+<h2>ArticleList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateArticle")
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CreateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GoodCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BadCount)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreateTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GoodCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BadCount)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Article", "EditArticle", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "ArticleDetails", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6">
+                <ul class="pagination">
+                    @if (ViewBag.PageCount <= 7)
+                    {
+                        //可容纳的总页码大于等于数据的实际页码
+                        for (int i = 0; i <= ViewBag.PageCount-1 ; i++)
+                        {
+                            <li>
+                                <a href="/Article/ArticleList/?PageIndex=@i&PageSize=1">@(i+1)</a>
+                            </li>
+                        }
+
+                    }
+                    else
+                    {
+                        //可容纳的总页码小于数据的实际页码
+                        if (ViewBag.PageIndex + 1 <= 7 / 2)
+                        {
+                            for (int i = 0; i <= 6; i++)
+                            {
+                                <li>
+                                    <a href="/Article/ArticleList/?PageIndex=@i&PageSize=1">@(i+1)</a>
+                                </li>
+                            }
+                        }
+                        else if ((ViewBag.PageCount - (ViewBag.PageIndex + 1)) <= 7 / 2)
+                        {
+                            for (int i = 0; i <= 6; i++)
+                            {
+                                <li>
+                                    <a href="/Article/ArticleList/?PageIndex=@(ViewBag.PageCount+i-7)&PageSize=1">@(ViewBag.PageCount+i-6)</a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            for (int i = 0; i <= 6; i++)
+                            {
+                                <li>
+                                    <a href="/Article/ArticleList/?PageIndex=@(ViewBag.PageIndex+1+i-4)&PageSize=1">@(ViewBag.PageIndex+1+i-3)</a>
+                                </li>
+                            }
+                        }
+                    }
+                </ul>
+            </td>
+        </tr>
+    </tfoot>
+
+</table>

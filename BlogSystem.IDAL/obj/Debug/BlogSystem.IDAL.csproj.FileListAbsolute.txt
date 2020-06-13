@@ -1,0 +1,12 @@
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\bin\Debug\BlogSystem.IDAL.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\bin\Debug\BlogSystem.IDAL.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\bin\Debug\BlogSystem.Models.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\bin\Debug\EntityFramework.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\bin\Debug\BlogSystem.Models.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\bin\Debug\BlogSystem.Models.dll.config
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\bin\Debug\EntityFramework.xml
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\obj\Debug\BlogSystem.IDAL.csprojAssemblyReference.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\obj\Debug\BlogSystem.IDAL.csproj.CoreCompileInputs.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\obj\Debug\BlogSystem.IDAL.csproj.CopyComplete
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\obj\Debug\BlogSystem.IDAL.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IDAL\obj\Debug\BlogSystem.IDAL.pdb

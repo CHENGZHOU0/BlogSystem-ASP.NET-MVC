@@ -1,0 +1,16 @@
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.IBLL.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.IBLL.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.Dto.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.IDAL.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.Models.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\EntityFramework.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.Dto.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.IDAL.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.Models.pdb
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\BlogSystem.Models.dll.config
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\bin\Debug\EntityFramework.xml
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\obj\Debug\BlogSystem.IBLL.csprojAssemblyReference.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\obj\Debug\BlogSystem.IBLL.csproj.CoreCompileInputs.cache
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\obj\Debug\BlogSystem.IBLL.csproj.CopyComplete
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\obj\Debug\BlogSystem.IBLL.dll
+D:\Documents\Code\.NET\ASP.NET\ASP.NET MVC\Blog\BlogSystem\BlogSystem.IBLL\obj\Debug\BlogSystem.IBLL.pdb
